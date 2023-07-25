@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh; /* Adjust the height as needed */
+}
+
+.container .textfield {
+    width: 30%;
+    margin: 6px 0px;
+}
+
+.container .login{
+    width: 30%;
+    background-color: rgb(238, 75, 2);
+    color: white;
+}
+.container .login:hover {
+  background-color: rgb(238, 45, 2);
+  cursor: pointer;
+}
